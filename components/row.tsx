@@ -25,7 +25,7 @@ function Row({ title, movies }: Props) {
       rowRef.current?.scrollTo({ left: scrollTo, behavior: "smooth"})
     }
   }
-  console.log("row", rowRef.current)
+
   
   return (
     <div className="h-40 space-y-0.5 md:space-y-2">
